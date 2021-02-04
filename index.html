@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            font-family: 'Courier New', Courier, monospace ;
+            
+        }
+        #row {
+            width: 70%;
+            max-width: 1025px;
+            margin: 0 auto;
+        
+        }
+        #row::after {
+            content: "";
+            display: block;
+            clear: left;  
+        }
+        .column {
+            float: left;
+            width: 160px;
+            box-sizing: border-box;
+            padding: 15px;
+        }
+        .box {
+            height: 90px;
+            background-color: rgb(159, 159, 255);
+            text-align: center;
+            border: 2px solid rgb(159, 165, 219);
+            border-radius: 7px;
+        }
+        img{
+            width: 100px;
+         
+        }
+        .title{
+            width: 125px;
+            line-height: 18px;
+            background: rgb(255, 255, 255);
+        }
+        h1{
+            width: 70%;
+            text-align: center;
+            margin: 0 auto;
+        }
+        p{
+            padding:20px ;
+        }
+        
+        @media screen and (max-width: 1024px;){
+            .column{
+                width: 33,33%;
+            }
+            p{
+                font-size: 18px;
+            }
+        }
+        @media screen  and (max-width: 768px;){
+            .column{
+                width: 50%;
+            }
+            p{
+                font-size: 17px;
+            }
+        }
+        @media screen and (max-width: 414px;){
+            .column{
+                width: 100%;
+                
+            }
+            p{
+                font-size: 16px;
+            }
+        }
+        
+            
+
+
+
+
+    </style>
+    
+       
+</head>
+<body>
+    <h1>Gallery Heading</h1>
+    <div id="row" >
+        <div class="column">
+        <div class="box">
+            <img src="placeholder-image.png">
+            <div class="title">Image Title</div>
+        </div>
+        </div>
+        <div class="column">
+        <div class="box">
+            <img src="placeholder-image.png">
+            <div class="title">Image Title</div>
+        </div>
+        </div>
+        <div class="column">
+        <div class="box">
+            <img src="placeholder-image.png">
+            <div class="title">Image Title</div>
+            </div>
+        </div>
+        <div class="column">
+        <div class="box">
+            <img src="placeholder-image.png">
+            <div class="title">Image Title</div>
+            </div>
+        </div>
+        <div class="column">
+        <div class="box">
+            <img src="placeholder-image.png">
+            <div class="title">Image Title</div>
+            </div>
+        </div>
+        <div class="column">
+        <div class="box">
+            <img src="placeholder-image.png">
+            <div class="title">Image Title</div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="box">
+                <img src="placeholder-image.png">
+                <div class="title">Image Title</div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="box">
+                <img src="placeholder-image.png">
+                <div class="title">Image Title</div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="box">
+                <img src="placeholder-image.png">
+                <div class="title">Image Title</div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="box">
+                <img src="placeholder-image.png">
+                <div class="title">Image Title</div>
+            </div>
+        </div>
+
+
+    </div>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+
+
+    
+</body>
+</html>
